@@ -154,8 +154,7 @@ jQuery(document).ready(function ($) {
          url: "https://script.google.com/macros/s/AKfycbxlEmYTxlc-3TMP9Hl7xREa_5jljOy7AZMhCFrH/exec",
          data: data,
          success: function (msg) {
-            // Incomplete fields
-            console.log(msg.data,honeypot)
+            // Spam protection
             if (honeypot !== "") {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
@@ -164,6 +163,7 @@ jQuery(document).ready(function ($) {
                $('#message-incomplete-fields').fadeOut();
                $('#message-honeypot').fadeIn();
             }
+            // Incomplete fields
             else if (contactName === "" || contactEmail === "" || contactMessage === "") {
                $('#message-incomplete-fields').fadeIn();
                $('#message-invalid-email').fadeOut();
