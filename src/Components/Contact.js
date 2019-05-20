@@ -70,7 +70,7 @@ class Contact extends Component {
                   </form>
 
                <div id="message-warning"> There was an error, please try again.</div>
-                  <div id="message-incomplete-data">
+                  <div id="message-incomplete-fields">
                      <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
                   </div>
                   <div id="message-invalid-email">
