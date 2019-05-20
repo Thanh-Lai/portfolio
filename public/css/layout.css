@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -884,7 +884,7 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 13px;
 }
-#message-warning, #message-success {
+#message-warning, #message-success, #message-invalid-email, #message-incomplete-data {
    display: none;
 	background: #0F0F0F;
 	padding: 24px 24px;
@@ -893,6 +893,8 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
+#message-invalid-email { color: #D72828; }
+#message-incomplete-data { color: #D72828; }
 #message-success { color: #11ABB0; }
 
 #message-warning i,

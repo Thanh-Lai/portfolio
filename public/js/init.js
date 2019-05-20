@@ -155,21 +155,33 @@
 	      url: "https://script.google.com/macros/s/AKfycbxlEmYTxlc-3TMP9Hl7xREa_5jljOy7AZMhCFrH/exec",
 	      data: data,
 	      success: function(msg) {
-
+            const validEmail = contactEmail.includes('@')
+            console.log(msg)
+            console.log(contactName,contactEmail, contactMessage)
+            if (contactName === "" || contactEmail === "" || contactMessage === "") {
+               
+            }
             // Message was sent
-            if (msg == 'OK') {
+            if (validEmail && msg.result === 'success') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn(); 
+               $('#message-invalid-email').fadeOut();  
             }
             // There was an error
             else {
-               $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
+               // In valid Email address
+               if (!validEmail) {
+                  $('#message-invalid-email').fadeIn();
+               }
+               // Message not sent
+               else {
+                  $('#image-loader').fadeOut();
+                  $('#message-warning').html(msg);
+                  $('#message-warning').fadeIn();
+               }
             }
-
 	      }
 
       });
