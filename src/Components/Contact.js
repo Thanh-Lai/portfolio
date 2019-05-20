@@ -37,27 +37,26 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form action="" method="post" id="contactForm" name="contactForm">
+                  <form autoComplete="off" action="" method="post" id="contactForm" name="contactForm">
                      <fieldset>
-
                         <div>
                            <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
+                           <input autofill="off" autoComplete="off" type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
                         </div>
 
                         <div>
                            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />/>
-                  </div>
+                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />/>
+                        </div>
 
                         <div>
                            <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />/>
-                  </div>
+                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />/>
+                        </div>
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                           <textarea autoComplete="off" cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                         </div>
 
                         <div>
@@ -66,10 +65,18 @@ class Contact extends Component {
                               <img alt="" src="images/loader.gif" />
                            </span>
                         </div>
+
+                        <div>
+                           <label htmlFor="honeypot"></label>
+                           <input autoComplete="off" type='text' defaultValue="" size="5" id="honeypot" name="honeypot" onChange={this.handleChange} />
+                        </div>
                      </fieldset>
                   </form>
 
-               <div id="message-warning"> There was an error, please try again.</div>
+                  <div id="message-warning"> There was an error, please try again.</div>
+                  <div id="message-honeypot">
+                     <i className="fa fa-check"></i> Please stop spamming me!.<br />
+                  </div>
                   <div id="message-incomplete-fields">
                      <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
                   </div>

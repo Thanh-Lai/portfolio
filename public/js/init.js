@@ -140,23 +140,31 @@ jQuery(document).ready(function ($) {
    $('form#contactForm button.submit').click(function () {
 
       $('#image-loader').fadeIn();
-
       const contactName = $('#contactForm #contactName').val();
       const contactEmail = $('#contactForm #contactEmail').val();
       const contactSubject = $('#contactForm #contactSubject').val();
       const contactMessage = $('#contactForm #contactMessage').val();
-
+      const honeypot = $('#contactForm #honeypot').val();
       const data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-         '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+         '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage + '&honeypot=' + honeypot;
       const validEmail = contactEmail.includes('@');
-      
+
       $.ajax({
          type: "POST",
          url: "https://script.google.com/macros/s/AKfycbxlEmYTxlc-3TMP9Hl7xREa_5jljOy7AZMhCFrH/exec",
          data: data,
          success: function (msg) {
             // Incomplete fields
-            if (contactName === "" || contactEmail === "" || contactMessage === "") {
+            console.log(msg.data,honeypot)
+            if (honeypot !== "") {
+               $('#image-loader').fadeOut();
+               $('#message-warning').hide();
+               $('#contactForm').fadeOut();
+               $('#message-invalid-email').fadeOut();
+               $('#message-incomplete-fields').fadeOut();
+               $('#message-honeypot').fadeIn();
+            }
+            else if (contactName === "" || contactEmail === "" || contactMessage === "") {
                $('#message-incomplete-fields').fadeIn();
                $('#message-invalid-email').fadeOut();
             }
@@ -183,6 +191,7 @@ jQuery(document).ready(function ($) {
          }
       });
       return false;
+      
    });
 
 

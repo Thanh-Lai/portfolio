@@ -884,7 +884,7 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 13px;
 }
-#message-warning, #message-success, #message-invalid-email, #message-incomplete-fields {
+#message-warning, #message-success, #message-invalid-email, #message-incomplete-fields, #message-honeypot {
    display: none;
 	background: #0F0F0F;
 	padding: 24px 24px;
@@ -895,6 +895,7 @@ call-to-action .button {
 #message-warning { color: #D72828; }
 #message-invalid-email { color: #D72828; }
 #message-incomplete-fields { color: #D72828; }
+#message-honeyBooBooPot { color: #D72828; }
 #message-success { color: #11ABB0; }
 
 #message-warning i,
@@ -908,6 +909,10 @@ call-to-action .button {
    top: 17px;
 }
 
+/* #honeyBooBooPot {
+   display: none;
+   opacity: 0;
+} */
 
 /* Twitter Feed */
 #twitter {
