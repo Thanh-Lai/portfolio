@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-amplify": "^1.1.28",
+    "aws-amplify-react": "^2.3.8",
     "jquery": "^3.4.1",
     "react": "^16.8.6",
+    "react-chat-ui": "^0.3.2",
+    "react-chat-widget": "^2.1.4-1",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-scripts": "3.0.1"
