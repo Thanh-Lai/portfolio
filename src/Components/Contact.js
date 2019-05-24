@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import ChatBox from './ChatBox';
 
 class Contact extends Component {
    render() {
@@ -56,13 +55,23 @@ class Contact extends Component {
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea autoComplete="off" cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                           <textarea autoComplete="off" cols="10" rows="5" id="contactMessage" name="contactMessage"></textarea>
                         </div>
 
                         <div>
                            <button className="submit">Submit</button>
                            <span id="image-loader">
                               <img alt="" src="images/loader.gif" />
+                              <div id="message-warning"> There was an error, please try again.</div>
+                              <div id="message-honeypot">
+                                 <i className="fa fa-check"></i> Please stop spamming me!.<br />
+                              </div>
+                              <div id="message-incomplete-fields">
+                                 <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
+                              </div>
+                              <div id="message-invalid-email">
+                                 <i className="fa fa-check"></i> Please provide a valid email address.<br />
+                              </div>
                            </span>
                         </div>
 
@@ -73,16 +82,6 @@ class Contact extends Component {
                      </fieldset>
                   </form>
 
-                  <div id="message-warning"> There was an error, please try again.</div>
-                  <div id="message-honeypot">
-                     <i className="fa fa-check"></i> Please stop spamming me!.<br />
-                  </div>
-                  <div id="message-incomplete-fields">
-                     <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
-                  </div>
-                  <div id="message-invalid-email">
-                     <i className="fa fa-check"></i> Please provide a valid email address.<br />
-                  </div>
                   <div id="message-success">
                      <i className="fa fa-check"></i> Your message was sent, thank you!<br />
                   </div>

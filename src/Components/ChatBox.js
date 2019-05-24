@@ -6,13 +6,13 @@ import logo from '../logo.png';
 
 class ChatBox extends Component {
     componentDidMount() {
-        addResponseMessage("Welcome, please ask me a question!");
+        addResponseMessage("Hello! Welcome, I am Thanh Bot. Please ask me any questions about Thanh.");
       }
 
     async handleNewUserMessage (newMessage) {
         // console.log(`New message incoming! ${newMessage}`);
         const response = await Interactions.send("thanhBot", newMessage);
-        // console.log('Bot response: ',response)
+        console.log('Bot response: ',response)
         addResponseMessage(response.message);
       }
 

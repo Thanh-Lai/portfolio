@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -795,8 +791,8 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 50px;
+   padding-bottom: 50x;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
