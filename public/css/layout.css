@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -795,8 +791,8 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 50px;
+   padding-bottom: 50x;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -932,7 +928,6 @@ call-to-action .button {
    border: none;
 }
 
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -948,30 +943,6 @@ footer {
 
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
-
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
 
 /* social links */
 footer .social-links {
