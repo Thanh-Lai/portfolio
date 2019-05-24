@@ -6,7 +6,7 @@ import logo from '../logo.png';
 
 class ChatBox extends Component {
     componentDidMount() {
-        addResponseMessage("Hello! Welcome, I am Thanh Bot. Please ask me any questions about Thanh.");
+        addResponseMessage("Hello! Welcome, I am Thanh Bot. I am a custom built AI chatbot that specializes in answering interview questions and questions about Thanh. Please give me a try!");
       }
 
     async handleNewUserMessage (newMessage) {
