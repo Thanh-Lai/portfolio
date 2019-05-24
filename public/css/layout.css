@@ -10,7 +10,8 @@
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
-   i. Footer
+   i. ChatBot
+   j. Footer
 
 ===================================================================== */
 
@@ -928,8 +929,21 @@ call-to-action .button {
    border: none;
 }
 
+
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* i. ChatBot
+/* ------------------------------------------------------------------ */
+
+.rcw-launcher {
+   background-color: #11ABB0;
+}
+
+.rcw-conversation-container > .rcw-header {
+   background-color: #11ABB0;
+ }
+
+/* ------------------------------------------------------------------ */
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
