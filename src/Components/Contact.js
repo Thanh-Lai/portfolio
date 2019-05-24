@@ -21,7 +21,7 @@ class Contact extends Component {
 
                <div className="two columns header-col">
 
-                  <h1><span>Get In Touch.</span></h1>
+                  <h1>Email</h1>
 
                </div>
 

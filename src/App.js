@@ -61,7 +61,6 @@ class App extends Component {
         <Contact data={this.state.resumeData.main} />
         <ChatBox />
         <Footer data={this.state.resumeData.main} />
-
       </div>
     );
   }
