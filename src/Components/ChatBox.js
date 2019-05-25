@@ -10,7 +10,7 @@ class ChatBox extends Component {
       }
 
     async handleNewUserMessage (newMessage) {
-        // console.log(`New message incoming! ${newMessage}`);
+        console.log(typeof newMessage, newMessage);
         const response = await Interactions.send("thanhBot", newMessage);
         console.log('Bot response: ',response)
         addResponseMessage(response.message);
