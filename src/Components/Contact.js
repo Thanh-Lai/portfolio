@@ -87,10 +87,8 @@ class Contact extends Component {
                   </div>
                </div>
 
-
                <aside className="four columns footer-widgets">
                   <div className="widget widget_contact">
-
                      <h4>Address and Phone</h4>
                      <p className="address">
                         {name}<br />
@@ -99,7 +97,6 @@ class Contact extends Component {
                         <span>{phone}</span>
                      </p>
                   </div>
-
                </aside>
             </div>
          </section>

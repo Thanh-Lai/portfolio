@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
    $('.smoothscroll').on('click', function (e) {
       e.preventDefault();
 
-      var target = this.hash,
+      const target = this.hash,
          $target = $(target);
 
       $('html, body').stop().animate({
@@ -37,8 +37,8 @@ jQuery(document).ready(function ($) {
    /* Highlight the current section in the navigation bar
    ------------------------------------------------------*/
 
-   var sections = $("section");
-   var navigation_links = $("#nav-wrap a");
+   const sections = $("section");
+   const navigation_links = $("#nav-wrap a");
 
    sections.waypoint({
 
@@ -79,9 +79,9 @@ jQuery(document).ready(function ($) {
 
    $(window).on('scroll', function () {
 
-      var h = $('header').height();
-      var y = $(window).scrollTop();
-      var nav = $('#nav-wrap');
+      const h = $('header').height();
+      const y = $(window).scrollTop();
+      const nav = $('#nav-wrap');
 
       if ((y > h * .20) && (y < h) && ($(window).outerWidth() > 768)) {
          nav.fadeOut('fast');
