@@ -45,19 +45,18 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Ramapo College of New Jersey",
+        "degree":"Business Administration",
+        "graduated":"May 2014",
+        "description":"GPA: 3.7/4.0, Latin Honor: Magna Cum Laude"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"FullStack Academy of Code",
+        "degree":"17 week Immersive software engineering program",
+        "graduated":"July 2018",
+        "description":" Fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
       }
     ],
     "work":[
@@ -74,6 +73,7 @@
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "skills":[
       {
         "name":"Git",
