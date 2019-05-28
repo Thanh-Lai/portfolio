@@ -19,7 +19,7 @@ class Quotes extends Component {
             <div className="text-container">
                <div className="row">
 
-                  <div className="two columns header-col">
+                  <div className="two columns header-col-open">
                      <h1><span>Inspiration</span></h1>
                   </div>
 
@@ -28,6 +28,11 @@ class Quotes extends Component {
                         {quotes}
                      </ul>
                   </div>
+
+                  <div className="two columns header-col-close">
+                     <h1><span>Inspiration</span></h1>
+                  </div>
+                  
                </div>
             </div>
          </section>

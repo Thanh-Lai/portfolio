@@ -8,7 +8,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Wuotes Section
+   g. Quotes Section
    h. Contact Section
    i. ChatBot
    j. Footer
@@ -639,7 +639,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Quotes
+/* g. Quotes Section
 /* ------------------------------------------------------------------ */
 
 #quotes {
@@ -664,17 +664,29 @@ call-to-action .button {
    color: #fff;
 }
 #quotes h1 span { display: none; }
-#quotes .header-col { padding-top: 9px; }
-#quotes .header-col h1:before {
+#quotes .header-col-open { padding-top: 9px; }
+#quotes .header-col-open h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
-   float: left;
+   text-align: right;
+   float: right;
    color: #fff;
 }
+#quotes .header-col-close { padding-top: 9px; }
+#quotes .header-col-close h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10e";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: right;
+   color: #fff;
+}
+
 
 /*	Blockquotes */
 #quotes blockquote {
