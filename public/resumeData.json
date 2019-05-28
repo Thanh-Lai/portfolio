@@ -20,27 +20,32 @@
       {
         "name":"facebook",
         "url":"https://www.facebook.com/thanh1",
-        "className":"fa fa-facebook"
+        "className":"fa fa-facebook",
+        "target": "_blank"
       },
       {
         "name":"twitter",
         "url":"https://twitter.com/tlaiful",
-        "className":"fa fa-twitter"
+        "className":"fa fa-twitter",
+        "target": "_blank"
       },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/thanhlai/",
-        "className":"fa fa-linkedin"
+        "className":"fa fa-linkedin",
+        "target": "_blank"
       },
       {
         "name":"instagram",
         "url":"https://www.instagram.com/thanhxray/?hl=en",
-        "className":"fa fa-instagram"
+        "className":"fa fa-instagram",
+        "target": "_blank"
       },
       {
         "name":"github",
         "url":"https://github.com/Thanh-Lai",
-        "className":"fa fa-github"
+        "className":"fa fa-github",
+        "target": "_blank"
       }
     ]
   },
