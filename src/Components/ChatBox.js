@@ -4,6 +4,8 @@ import { Widget, addResponseMessage } from 'react-chat-widget';
 import 'react-chat-widget/lib/styles.css';
 import logo from '../logo.png';
 
+
+// ChatBot only works for devices with screen widths higher than 1000px.
 class ChatBox extends Component {
     componentDidMount() {
         addResponseMessage("Welcome! I am Thanh Bot, a custom built AI chatbot that specializes in answering interview questions for Thanh and other questions about Thanh. I also tell Chuck Norris jokes!");

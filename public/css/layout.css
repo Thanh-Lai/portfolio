@@ -10,8 +10,7 @@
    f. Call To Action Section
    g. Quotes Section
    h. Contact Section
-   i. ChatBot
-   j. Footer
+   i. Footer
 
 ===================================================================== */
 
@@ -92,7 +91,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color:#35cce6; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -114,7 +113,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #35cce6; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -192,7 +191,7 @@ ul#nav li.current a { color: red; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #35cce6; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -240,7 +239,7 @@ ul#nav li.current a { color: red; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #35cce6; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -249,7 +248,7 @@ ul#nav li.current a { color: red; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #35cce6;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -322,7 +321,7 @@ ul#nav li.current a { color: red; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-/*
+
 .git {
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
@@ -408,7 +407,7 @@ ul#nav li.current a { color: red; }
 @-webkit-keyframes mongodb {
   0%   { width: 0px;  }
   100% { width: 80%;  }
-}  */
+} 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -811,7 +810,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #35cce6; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -872,7 +871,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+   background-color: #35cce6;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -891,7 +890,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #35cce6;
 	font-size: 13px;
 }
 #message-warning, #message-success, #message-invalid-email, #message-incomplete-fields, #message-honeypot {
@@ -906,7 +905,7 @@ call-to-action .button {
 #message-invalid-email { color: #D72828; }
 #message-incomplete-fields { color: #D72828; }
 #message-honeyBooBooPot { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #35cce6; }
 
 #message-warning i,
 #message-success i {
@@ -947,13 +946,6 @@ call-to-action .button {
 /* i. ChatBot
 /* ------------------------------------------------------------------ */
 
-.rcw-launcher {
-   background-color: #11ABB0;
-}
-
-.rcw-conversation-container > .rcw-header {
-   background-color: #11ABB0;
- }
 
 /* ------------------------------------------------------------------ */
 /* j. Footer
@@ -969,7 +961,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #35cce6; }
 
 /* social links */
 footer .social-links {
@@ -1013,4 +1005,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #35cce6; }

@@ -10,6 +10,7 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import Quotes from './Components/Quotes';
 import ChatBox from './Components/ChatBox';
+import MediaQuery from "react-responsive";
 
 class App extends Component {
 
@@ -58,7 +59,9 @@ class App extends Component {
         <Portfolio data={this.state.resumeData.portfolio} />
         <Quotes data={this.state.resumeData.quotes} />
         <Contact data={this.state.resumeData.main} />
-        <ChatBox />
+        <MediaQuery query="(min-device-width: 1000px)">
+          <ChatBox />
+        </MediaQuery>
         <Footer data={this.state.resumeData.main} />
       </div>
     );
