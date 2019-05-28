@@ -90,8 +90,6 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color:#35cce6; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -99,13 +97,13 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
+   color: #BEBEBE;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   color: #BEBEBE;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -322,92 +320,121 @@ ul#nav li.current a { color: red; }
    border-radius: 3px 0 0 3px;
 }
 
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.javascript {
+  	-moz-animation: javascript 3s ease;
+  	-webkit-animation: javascript 3s ease;
 }
 .reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
+  	-moz-animation: reactjs 3s ease;
+  	-webkit-animation: reactjs 3s ease;
 }
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
+.node {
+  	-moz-animation: node 3s ease;
+  	-webkit-animation: node 3s ease;
 }
 
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.express {
+   -moz-animation: express 3s ease;
+   -webkit-animation: express 3s ease;
 }
-@-moz-keyframes illustrator {
+
+.html5 {
+   -moz-animation: html5 3s ease;
+   -webkit-animation: html5 3s ease;
+}
+
+.css {
+  	-moz-animation: css 3s ease;
+  	-webkit-animation: css 3s ease;
+}
+.postgressql {
+  	-moz-animation: postgressql 3s ease;
+  	-webkit-animation: postgressql 3s ease;
+}
+.sequelize {
+  	-moz-animation: sequelize 3s ease;
+  	-webkit-animation: sequelize 3s ease;
+}
+
+.python {
+   -moz-animation: python 3s ease;
+   -webkit-animation: python 3s ease;
+}
+
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 85%;  }
 }
+@-moz-keyframes node {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes express {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 95%;  }
+ }
 @-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes postgressql {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes sequelize {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
 
-@-webkit-keyframes photoshop {
+@-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 85%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes node {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes express {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 95%;  }
 }
-@-webkit-keyframes vuejs {
+@-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes mongodb {
+@-webkit-keyframes postgressql {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 } 
+@-webkit-keyframes sequelize {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ } 
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ } 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -961,7 +988,6 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #35cce6; }
 
 /* social links */
 footer .social-links {

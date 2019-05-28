@@ -20,27 +20,37 @@
       {
         "name":"facebook",
         "url":"https://www.facebook.com/thanh1",
-        "className":"fa fa-facebook"
+        "className":"fa fa-facebook",
+        "target": "_blank",
+        "color": "#4267B2"
       },
       {
         "name":"twitter",
         "url":"https://twitter.com/tlaiful",
-        "className":"fa fa-twitter"
+        "className":"fa fa-twitter",
+        "target": "_blank",
+        "color": "#1DA1F2"
       },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/thanhlai/",
-        "className":"fa fa-linkedin"
+        "className":"fa fa-linkedin",
+        "target": "_blank",
+        "color": "#0077B5"
       },
       {
         "name":"instagram",
         "url":"https://www.instagram.com/thanhxray/?hl=en",
-        "className":"fa fa-instagram"
+        "className":"fa fa-instagram",
+        "target": "_blank",
+        "color": "#DD2A7B"
       },
       {
         "name":"github",
         "url":"https://github.com/Thanh-Lai",
-        "className":"fa fa-github"
+        "className":"fa fa-github",
+        "target": "_blank",
+        "color": "#FFFFFF"
       }
     ]
   },
@@ -97,7 +107,7 @@
       },
       {
         "name":"CSS",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"PostgresSQL",
@@ -119,19 +129,22 @@
         "title":"ThanhBot",
         "category":"AI chatbot that answers interview questions and tells jokes",
         "image":"thanhbot.jpg",	
-        "url":"https://www.thanh-lai.com"	
+        "url":"https://www.thanh-lai.com",
+        "gitHub": "https://github.com/Thanh-Lai/porfolio"
       },
       {
         "title":"Code-O",
         "category":"Coding platform that measures time complexity",
         "image":"code-o.jpg",	
-        "url":"http://code-o.herokuapp.com/"	
+        "url":"http://code-o.herokuapp.com/",
+        "gitHub": "https://github.com/Code-O"	
       },
       {
         "title":"Leggo-my-Lego",
         "category":"Breakout style Phaser game",
         "image":"leggo-eggo.jpg",
-        "url":"http://www.leggo-my-lego.com"
+        "url":"http://www.leggo-my-lego.com",
+        "gitHub": "https://github.com/Thanh-Lai/Stackathon-Leggo-my-Lego"
       }
     ]
   },
