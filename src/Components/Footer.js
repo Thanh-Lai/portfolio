@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 
 class Footer extends Component {
   constructor(props) {
@@ -41,7 +40,7 @@ class Footer extends Component {
       var networks = this.props.data.social.map(network => {
         let hoverStyle = this.state[network.name] ? { color: network.color } : { color: "#525252" };
         return (<li key={network.name}>
-          <a ref={network.url} target={network.target} >
+          <a href={network.url} target={network.target} >
             <i style={hoverStyle} id={network.name} className={network.className} onMouseLeave={this.toggleHover} onMouseEnter={this.toggleHover}></i>
           </a>
         </li>)

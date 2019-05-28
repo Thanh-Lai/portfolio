@@ -1,7 +1,38 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-   
+   constructor(props) {
+      super(props)
+      this.state = {
+        facebook: false,
+        twitter: false,
+        linkedin: false,
+        instagram: false,
+        github: false
+      }
+      this.toggleHover = this.toggleHover.bind(this)
+    }
+  
+    toggleHover(event) {
+      let elem = event.target.id
+      switch (elem) {
+        case 'facebook':
+          this.setState({ facebook: !this.state.facebook })
+          return
+        case 'twitter':
+          this.setState({ twitter: !this.state.twitter })
+          return
+        case 'linkedin':
+          this.setState({ linkedin: !this.state.linkedin })
+          return
+        case 'instagram':
+          this.setState({ instagram: !this.state.instagram })
+          return
+        default:
+          this.setState({ github: !this.state.github })
+          return
+      }
+    }
   render() {
 
     if(this.props.data){
@@ -9,9 +40,14 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url} target={network.target}><i className={network.className}></i></a></li>
-      })
+      var networks = this.props.data.social.map(network => {
+         let hoverStyle = this.state[network.name] ? { color: network.color } : { color: "#BEBEBE" };
+         return (<li key={network.name}>
+           <a href={network.url} target={network.target} >
+             <i style={hoverStyle} id={network.name} className={network.className} onMouseLeave={this.toggleHover} onMouseEnter={this.toggleHover}></i>
+           </a>
+         </li>)
+       })
     }
 
     return (
