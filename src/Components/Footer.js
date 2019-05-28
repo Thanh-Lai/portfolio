@@ -10,26 +10,26 @@ class Footer extends Component {
       instagram: false,
       github: false
     }
-    this.toggleHover = this.toggleHover.bind(this)
+    this.toggleHover = this.toggleHover.bind(this);
   }
 
   toggleHover(event) {
-    let elem = event.target.id
+    let elem = event.target.id;
     switch (elem) {
       case 'facebook':
-        this.setState({ facebook: !this.state.facebook })
+        this.setState({ facebook: !this.state.facebook });
         return
       case 'twitter':
-        this.setState({ twitter: !this.state.twitter })
+        this.setState({ twitter: !this.state.twitter });
         return
       case 'linkedin':
-        this.setState({ linkedin: !this.state.linkedin })
+        this.setState({ linkedin: !this.state.linkedin });
         return
       case 'instagram':
-        this.setState({ instagram: !this.state.instagram })
+        this.setState({ instagram: !this.state.instagram });
         return
       default:
-        this.setState({ github: !this.state.github })
+        this.setState({ github: !this.state.github });
         return
     }
   }
@@ -38,7 +38,7 @@ class Footer extends Component {
 
     if (this.props.data) {
       var networks = this.props.data.social.map(network => {
-        let hoverStyle = this.state[network.name] ? { color: network.color } : { color: "#525252" };
+        const hoverStyle = this.state[network.name] ? { color: network.color } : { color: "#525252" };
         return (<li key={network.name}>
           <a href={network.url} target={network.target} >
             <i style={hoverStyle} id={network.name} className={network.className} onMouseLeave={this.toggleHover} onMouseEnter={this.toggleHover}></i>
