@@ -2,9 +2,11 @@
 <img align="center" width="178" height="178"
      title="Size Limit logo" src="./public/favicon.ico">
 
-## Introduction
-My personal site featuring a chatbot that can answer interview questions and other questions about me. It can also tell Chuck Norris jokes. This feature is great for recruiters who wish to interview me before directly speaking with me. If you wish to contact me, send me an email in the contact form.
+---
 
+## Introduction
+My personal site featuring a chatbot(ThanhBot) that can answer interview questions and other questions about me. It can also tell Chuck Norris jokes. This feature is great for recruiters who wish to interview me before directly speaking with me. If you wish to contact me, send me an email in the contact form.
+     ** Note: ThanhBot will only be available for devices with screens larger than 1000px.
 Visit me at: http://www.thanh-lai.com/
 
 ## Built With
