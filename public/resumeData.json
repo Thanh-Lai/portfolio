@@ -15,6 +15,7 @@
       "zip": "11220"
     },
     "website": "http://www.thanh-lai.com",
+    "resumedownload":"./resume.pdf",
     "social":[
       {
         "name":"facebook",
