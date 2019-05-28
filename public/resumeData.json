@@ -21,31 +21,36 @@
         "name":"facebook",
         "url":"https://www.facebook.com/thanh1",
         "className":"fa fa-facebook",
-        "target": "_blank"
+        "target": "_blank",
+        "color": "#4267B2"
       },
       {
         "name":"twitter",
         "url":"https://twitter.com/tlaiful",
         "className":"fa fa-twitter",
-        "target": "_blank"
+        "target": "_blank",
+        "color": "#1DA1F2"
       },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/thanhlai/",
         "className":"fa fa-linkedin",
-        "target": "_blank"
+        "target": "_blank",
+        "color": "#0077B5"
       },
       {
         "name":"instagram",
         "url":"https://www.instagram.com/thanhxray/?hl=en",
         "className":"fa fa-instagram",
-        "target": "_blank"
+        "target": "_blank",
+        "color": "#DD2A7B"
       },
       {
         "name":"github",
         "url":"https://github.com/Thanh-Lai",
         "className":"fa fa-github",
-        "target": "_blank"
+        "target": "_blank",
+        "color": "#FFFFFF"
       }
     ]
   },

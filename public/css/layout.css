@@ -91,7 +91,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color:#35cce6; }
+/* header .social li a:hover { color:#35cce6; } */
 
 /* scrolldown link */
 header .scrolldown a {
@@ -961,7 +961,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #35cce6; }
+/* footer a:hover, footer a:focus { color:red; } */
 
 /* social links */
 footer .social-links {
