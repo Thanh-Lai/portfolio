@@ -7,7 +7,7 @@
 ## Introduction
 My personal site featuring a chatbot(ThanhBot) that can answer interview questions and other questions about me. It can also tell Chuck Norris jokes. This feature is great for recruiters who wish to interview me before directly speaking with me. If you wish to contact me, send me an email in the contact form.
 
-** Note: ThanhBot will only be available for devices with screens larger than 1000px.
+** Note: ThanhBot will only be available for devices with a screen size larger than 1000px.
  
 Visit me at: http://www.thanh-lai.com/
 
