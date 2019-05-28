@@ -7,9 +7,10 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import Quotes from './Components/Quotes';
 import ChatBox from './Components/ChatBox';
+import MediaQuery from "react-responsive";
 
 class App extends Component {
 
@@ -56,9 +57,11 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
-        <Testimonials data={this.state.resumeData.testimonials} />
+        <Quotes data={this.state.resumeData.quotes} />
         <Contact data={this.state.resumeData.main} />
-        <ChatBox />
+        <MediaQuery query="(min-device-width: 1000px)">
+          <ChatBox />
+        </MediaQuery>
         <Footer data={this.state.resumeData.main} />
       </div>
     );

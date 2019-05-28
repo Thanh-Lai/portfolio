@@ -1,163 +1,153 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Thanh Lai",
+    "occupation":"Software Engineer",
+    "description":"My most enduring trait is my curiosity and that shows in my willingness to learn",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"My hobbies include watching my beloved Manchester United, taking tranquil hikes, and long directionless strolls. Besides computer science, I like to seek out long meaningful conversations in a range of topics include animals, history, science, politics, and geopolitics. I drink way too much bubble tea and I find myself watching too many dog videos on youtube. I have a notably horrendous track record of judging how long to microwave something and I strongly believe unsolicited pop ups are the root of all evil.",
     "contactmessage":"Lets get coffee or bubble tea!",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "tlai1122@gmail.com",
+    "phone": "(201) 993-8834",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"803 58th Street",
+      "city":"New York City",
+      "state":"New York",
+      "zip": "11220"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.thanh-lai.com",
+    "resumedownload":"./resume.pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/thanh1",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/tlaiful",
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/thanhlai/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/thanhxray/?hl=en",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/Thanh-Lai",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"FullStack Academy of Code",
+        "degree":"Web Development Fellowship",
+        "graduated":"July 2018",
+        "description":"17 week Immersive software engineering program fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Ramapo College of New Jersey",
+        "degree":"Business Administration",
+        "graduated":"May 2014",
+        "description":"GPA: 3.7/4.0, Latin Honor: Magna Cum Laude"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Wellcome Adult Daycare Inc.",
+        "title":"Social Daycare Office Clerk",
+        "years":"September 2017 - March 2018",
+        "description":"Drafted letters, documents, presentations and monthly reports."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Ribest Ribbons & Bows USA Inc",
+        "title":"Project Coordinator",
+        "years":"June 20155 - September 2017",
+        "description":"Spearheads 15+ production projects at a time, with each project ranging from $1,000 to over $100,000."
       }
     ],
+    "skillmessage":"My most proficient stack is the NERD Stack (Node, Express, React, PostgresSql Database)",
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"JavaScript",
         "level":"90%"
       },
       {
+        "name":"ReactJS",
+        "level":"85%"
+      },
+      {
+        "name":"Node",
+        "level":"75%"
+      },
+      {
+        "name":"Express",
+        "level":"80%"
+      },
+      {
         "name":"HTML5",
-        "level":"80%"
+        "level":"95%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"CSS",
+        "level":"60%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"PostgresSQL",
+        "level":"70%"
+      },
+      {
+        "name":"Sequelize",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
       }
     ]
   },
-  "portfolio":{
-    "projects": [
+  "portfolio":{	
+    "projects": [	
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"ThanhBot",
+        "category":"AI chatbot that answers interview questions and tells jokes",
+        "image":"thanhbot.jpg",	
+        "url":"https://www.thanh-lai.com"	
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Code-O",
+        "category":"Coding platform that measures time complexity",
+        "image":"code-o.jpg",	
+        "url":"http://code-o.herokuapp.com/"	
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Leggo-my-Lego",
+        "category":"Breakout style Phaser game",
+        "image":"leggo-eggo.jpg",
+        "url":"http://www.leggo-my-lego.com"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "quotes":{
+    "quotes":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"You Are Never Too Old To Set Another Goal Or To Dream A New Dream.",
+        "user":"C.S. Lewis"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"A person who never made a mistake never tried anything new",
+        "user":"Albert Einstein"
+      },
+      {
+        "text":"Nothing can stop a person with the right mental attitude from achieving his goal; nothing on earth can help a person with the wrong mental attitude.",
+        "user":"Thomas Jefferson"
       }
     ]
   }

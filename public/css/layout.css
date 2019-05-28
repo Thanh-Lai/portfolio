@@ -8,10 +8,9 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Quotes Section
    h. Contact Section
-   i. ChatBot
-   j. Footer
+   i. Footer
 
 ===================================================================== */
 
@@ -62,19 +61,19 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 22px/1.9em 'librebaskerville-regular', serif;
+   color: #F06000;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: rgb(241, 4, 4);
 }
 header .banner-text hr {
    width: 60%;
-   margin: 18px auto 24px auto;
+   margin: 22px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
@@ -92,7 +91,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color:#35cce6; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -114,7 +113,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #35cce6; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -127,7 +126,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 15px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -166,7 +165,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color:#F06000;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -176,7 +175,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li a:hover {background-color: #A8A8A8 }
+ul#nav li.current a { color: red; }
 
 
 /* ------------------------------------------------------------------ */
@@ -191,7 +191,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #35cce6; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -204,8 +204,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -239,7 +239,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #35cce6; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -248,7 +248,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #35cce6;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -321,7 +321,7 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-/*
+
 .git {
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
@@ -407,7 +407,7 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes mongodb {
   0%   { width: 0px;  }
   100% { width: 80%;  }
-}  */
+} 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -638,11 +638,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Quotes Section
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#quotes {
+   background: #1F1F1F url(../images/quotes-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -652,54 +652,66 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#quotes .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#quotes h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#quotes h1 span { display: none; }
+#quotes .header-col-open { padding-top: 9px; }
+#quotes .header-col-open h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
+   text-align: right;
+   float: right;
+   color: #fff;
+}
+#quotes .header-col-close { padding-top: 9px; }
+#quotes .header-col-close h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10e";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
    text-align: left;
-   float: left;
+   float: right;
    color: #fff;
 }
 
+
 /*	Blockquotes */
-#testimonials blockquote {
+#quotes blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#quotes blockquote:before { content: none; }
+#quotes blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#quotes blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#quotes blockquote cite:before { content: "\2014 \0020"; }
+#quotes blockquote cite a,
+#quotes blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -798,7 +810,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #35cce6; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -859,7 +871,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+   background-color: #35cce6;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -878,7 +890,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #35cce6;
 	font-size: 13px;
 }
 #message-warning, #message-success, #message-invalid-email, #message-incomplete-fields, #message-honeypot {
@@ -893,7 +905,7 @@ call-to-action .button {
 #message-invalid-email { color: #D72828; }
 #message-incomplete-fields { color: #D72828; }
 #message-honeyBooBooPot { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #35cce6; }
 
 #message-warning i,
 #message-success i {
@@ -934,13 +946,6 @@ call-to-action .button {
 /* i. ChatBot
 /* ------------------------------------------------------------------ */
 
-.rcw-launcher {
-   background-color: #11ABB0;
-}
-
-.rcw-conversation-container > .rcw-header {
-   background-color: #11ABB0;
- }
 
 /* ------------------------------------------------------------------ */
 /* j. Footer
@@ -956,7 +961,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #35cce6; }
 
 /* social links */
 footer .social-links {
@@ -1000,4 +1005,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #35cce6; }
