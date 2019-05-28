@@ -47,61 +47,69 @@
   "resume":{
     "education":[
       {
+        "school":"FullStack Academy of Code",
+        "degree":"Web Development Fellowship",
+        "graduated":"July 2018",
+        "description":"17 week Immersive software engineering program fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
+      },
+      {
         "school":"Ramapo College of New Jersey",
         "degree":"Business Administration",
         "graduated":"May 2014",
         "description":"GPA: 3.7/4.0, Latin Honor: Magna Cum Laude"
-      },
-      {
-        "school":"FullStack Academy of Code",
-        "degree":"17 week Immersive software engineering program",
-        "graduated":"July 2018",
-        "description":" Fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Wellcome Adult Daycare Inc.",
+        "title":"Social Daycare Office Clerk",
+        "years":"September 2017 - March 2018",
+        "description":"Drafted letters, documents, presentations and monthly reports."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Ribest Ribbons & Bows USA Inc",
+        "title":"Project Coordinator",
+        "years":"June 20155 - September 2017",
+        "description":"Spearheads 15+ production projects at a time, with each project ranging from $1,000 to over $100,000."
       }
     ],
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"My most proficient stack is the NERD Stack (Node, Express, React, PostgresSql Database)",
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"JavaScript",
         "level":"90%"
       },
       {
+        "name":"ReactJS",
+        "level":"85%"
+      },
+      {
+        "name":"Node",
+        "level":"75%"
+      },
+      {
+        "name":"Express",
+        "level":"80%"
+      },
+      {
         "name":"HTML5",
-        "level":"80%"
+        "level":"95%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"CSS",
+        "level":"60%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"PostgresSQL",
+        "level":"70%"
+      },
+      {
+        "name":"Sequelize",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
       }
     ]
   },
