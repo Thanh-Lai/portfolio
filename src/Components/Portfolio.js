@@ -21,6 +21,7 @@ class Portfolio extends Component {
           </div>
           <div className="portfolio-title">
                  <h5>{projects.title}</h5>
+                     <a href= {projects.gitHub} target="_blank" >GitHub</a>
                      <p>{projects.category}</p>
                   </div>
         </div>
