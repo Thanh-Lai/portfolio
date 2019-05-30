@@ -60,7 +60,7 @@
         "school":"FullStack Academy of Code",
         "degree":"Web Development Fellowship",
         "graduated":"July 2018",
-        "description":"17 week Immersive software engineering program fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
+        "description":"17 week immersive software engineering program focused on fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
       },
       {
         "school":"Ramapo College of New Jersey",
@@ -155,7 +155,7 @@
         "user":"C.S. Lewis"
       },
       {
-        "text":"A person who never made a mistake never tried anything new",
+        "text":"A person who never made a mistake never tried anything new.",
         "user":"Albert Einstein"
       },
       {
