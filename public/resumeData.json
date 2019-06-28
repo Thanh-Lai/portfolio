@@ -71,10 +71,10 @@
     ],
     "work":[
       {
-        "company":"Wellcome Adult Daycare Inc.",
-        "title":"Social Daycare Office Clerk",
-        "years":"September 2017 - March 2018",
-        "description":"Drafted letters, documents, presentations and monthly reports."
+        "company":"JETSWEAT",
+        "title":"Software Development Intern",
+        "years":"June 2019 - Present",
+        "description":"Full Stack developer building, testing, and implementing JETSWEAT’s new application."
       },
       {
         "company":"Ribest Ribbons & Bows USA Inc",
@@ -88,6 +88,10 @@
       {
         "name":"JavaScript",
         "level":"90%"
+      },
+      {
+        "name":"AWS",
+        "level":"80%"
       },
       {
         "name":"ReactJS",
