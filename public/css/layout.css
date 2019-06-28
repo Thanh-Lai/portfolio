@@ -324,6 +324,10 @@ ul#nav li.current a { color: red; }
   	-moz-animation: javascript 3s ease;
   	-webkit-animation: javascript 3s ease;
 }
+.aws {
+   -moz-animation: aws 3s ease;
+   -webkit-animation: aws 3s ease;
+}
 .reactjs {
   	-moz-animation: reactjs 3s ease;
   	-webkit-animation: reactjs 3s ease;
@@ -365,6 +369,10 @@ ul#nav li.current a { color: red; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-moz-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
 @-moz-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 85%;  }
@@ -403,6 +411,10 @@ ul#nav li.current a { color: red; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-webkit-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
 @-webkit-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 85%;  }
