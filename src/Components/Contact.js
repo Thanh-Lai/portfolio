@@ -38,34 +38,34 @@ class Contact extends Component {
 
                         <div>
                            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />/>
+                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
                         </div>
 
                         <div>
                            <label htmlFor="contactSubject">Subject</label>
-                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />/>
+                           <input autoComplete="off" type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
                         </div>
 
-                        <div>
+                        <div id="contact-message">
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                            <textarea autoComplete="off" cols="10" rows="5" id="contactMessage" name="contactMessage"></textarea>
                         </div>
 
-                        <div>
+                        <div id="submit-response">
                            <button className="submit">Submit</button>
                            <span id="image-loader">
                               <img alt="" src="images/loader.gif" />
-                              <div id="message-warning"> There was an error, please try again.</div>
-                              <div id="message-honeypot">
-                                 <i className="fa fa-check"></i> Please stop spamming me!.<br />
-                              </div>
-                              <div id="message-incomplete-fields">
-                                 <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
-                              </div>
-                              <div id="message-invalid-email">
-                                 <i className="fa fa-check"></i> Please provide a valid email address.<br />
-                              </div>
                            </span>
+                           <div id="message-warning"> There was an error, please try again.</div>
+                           <div id="message-honeypot">
+                              <i className="fa fa-check"></i> Please stop spamming me!.<br />
+                           </div>
+                           <div id="message-incomplete-fields">
+                              <i className="fa fa-check"></i> Please fill in all required fields marked with an asterisk.<br />
+                           </div>
+                           <div id="message-invalid-email">
+                              <i className="fa fa-check"></i> Please provide a valid email address.<br />
+                           </div>
                         </div>
 
                         <div>

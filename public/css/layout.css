@@ -900,12 +900,15 @@ call-to-action .button {
    padding: 18px 20px;
 	color: #eee;
 	background: #373233;
-	margin-bottom: 42px;
+	margin-bottom: 30px;
 	border: 0;
 	outline: none;
    font-size: 15px;
    line-height: 20px;
    width: 65%;
+}
+#contact textarea {
+   margin-bottom: 15px;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -932,6 +935,9 @@ call-to-action .button {
 #contact span.required {
 	color: #35cce6;
 	font-size: 13px;
+}
+#submit-response {
+
 }
 #message-warning, #message-success, #message-invalid-email, #message-incomplete-fields, #message-honeypot {
    display: none;
@@ -992,8 +998,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 30px;
+   margin-bottom: 5px;
    color: #303030;
    font-size: 14px;
    text-align: center;
