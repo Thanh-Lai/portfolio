@@ -71,16 +71,16 @@
     ],
     "work":[
       {
-        "company":"JETSWEAT",
-        "title":"Software Development Intern",
-        "years":"June 2019 - Present",
-        "description":"Full Stack developer building, testing, and implementing JETSWEAT’s new application."
+        "company":"Guidepoint",
+        "title":"Software Engineer",
+        "years":"September 209 - Present",
+        "description":"Full Stack developer utilizing PHP, JavaScript, MySQL, JQuery, CSS, AWS and more."
       },
       {
-        "company":"Ribest Ribbons & Bows USA Inc",
-        "title":"Project Coordinator",
-        "years":"June 2015 - September 2017",
-        "description":"Spearheads 15+ production projects at a time, with each project ranging from $1,000 to over $100,000."
+        "company":"JETSWEAT",
+        "title":"Software Development Intern",
+        "years":"June 2019 - August 2019",
+        "description":"Full Stack developer building, testing, and implementing JETSWEAT’s new application."
       }
     ],
     "skillmessage":"My most proficient stack is the NERD Stack (Node, Express, React, PostgresSql Database)",
