@@ -276,6 +276,10 @@ ul#nav li.current a { color: red; }
    margin-top: 6px;
 }
 
+.job-description {
+   margin: 0 0 0px 0;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
