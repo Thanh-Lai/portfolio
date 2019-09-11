@@ -11,7 +11,7 @@ class ChatBox extends Component {
         addResponseMessage("Welcome! I am Thanh Bot, a custom built AI chatbot that specializes in answering interview questions for Thanh and other questions about Thanh. I also tell Chuck Norris jokes!");
         addResponseMessage("Example: 'Which languages do you know?'");
         addResponseMessage("Example: 'Tell me a joke'");
-        toggleWidget()
+        toggleWidget();
       }
 
     async handleNewUserMessage (newMessage) {
