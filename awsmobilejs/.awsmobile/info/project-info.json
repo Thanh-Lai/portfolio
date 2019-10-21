@@ -1,0 +1,19 @@
+{
+	"ProjectName": "my-site",
+	"ProjectPath": "/Users/thanhlai/My-Projects/my-site",
+	"InitializationTime": "2019-05-23-15-27-06",
+	"LastConfigurationTime": "2019-05-23-15-26-25",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendLastSyncTime": "2019-05-23-15-28-57",
+	"BackendLastBuildTime": "2019-05-23-15-28-04",
+	"BackendLastPushTime": "2019-05-23-15-28-21",
+	"BackendProjectID": "cd97d3ca-6818-4016-ab6f-7feab6f9d0c8",
+	"BackendProjectName": "my-site-2019-05-23-15-26-25",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/cd97d3ca-6818-4016-ab6f-7feab6f9d0c8/build",
+	"BackendProjectCreationTime": "2019-05-23T19:26:26.249Z",
+	"BackendProjectLastUpdatedTime": "2019-05-23T19:28:20.424Z",
+	"Framework": "react",
+	"BackendLastSyncToDevTime": "2019-05-23-15-29-13"
+}
