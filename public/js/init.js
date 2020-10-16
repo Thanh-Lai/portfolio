@@ -151,7 +151,7 @@ jQuery(document).ready(function ($) {
 
       $.ajax({
          type: "POST",
-         url: "https://script.google.com/macros/s/AKfycbxlEmYTxlc-3TMP9Hl7xREa_5jljOy7AZMhCFrH/exec",
+         url: "https://script.google.com/macros/s/AKfycbxDTMSW2Efw3AxfbhKljtHNOyhPskFrlfFApItR/exec",
          data: data,
          success: function (msg) {
             // Spam protection
