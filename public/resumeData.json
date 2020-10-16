@@ -9,7 +9,7 @@
     "email": "tlai1122@gmail.com",
     "phone": "(201) 993-8834",
     "address":{
-      "street":"803 58th Street",
+      "street":"869 57th Street",
       "city":"New York City",
       "state":"New York",
       "zip": "11220"
@@ -73,7 +73,7 @@
       {
         "company":"Guidepoint",
         "title":"Software Engineer",
-        "years":"September 2019 - Present",
+        "years":"September 2019 - October 2020",
         "description":"Software Engineer utilizing PHP, JavaScript, MySQL, JQuery, CSS, AWS and more."
       },
       {
