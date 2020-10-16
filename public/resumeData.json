@@ -74,7 +74,7 @@
         "company":"Guidepoint",
         "title":"Software Engineer",
         "years":"September 2019 - October 2020",
-        "description":"Software Engineer utilizing PHP, JavaScript, MySQL, JQuery, CSS, AWS and more."
+        "description":"Full stack developer utilizing LAMP stack (Linux, Azure, MySQL, PHP), JavaScript, JQuery, CSS, Redis, and more.•Developed new features and maintained company’s Customer Relationship Management system.•Built reports that provided important information to help the business make informed decisions."
       },
       {
         "company":"JETSWEAT",
@@ -83,11 +83,15 @@
         "description":"Full Stack Developer utilizing JavaScript, React, Redux, MySQL, CSS, and more.•Developed new user-facing features using React from designs and wireframes.•Built REST APIs and updated Redux store to integrate new features."
       }
     ],
-    "skillmessage":"My most proficient stack is the NERD Stack (Node, Express, React, PostgresSql Database)",
+    "skillmessage":"I have experience in the NERD stack and LAMP stack.",
     "skills":[
       {
         "name":"JavaScript",
-        "level":"90%"
+        "level":"95%"
+      },
+      {
+        "name":"PHP",
+        "level":"95%"
       },
       {
         "name":"AWS",
@@ -107,11 +111,11 @@
       },
       {
         "name":"HTML5",
-        "level":"95%"
+        "level":"100%"
       },
       {
         "name":"CSS",
-        "level":"70%"
+        "level":"85%"
       },
       {
         "name":"PostgresSQL",
