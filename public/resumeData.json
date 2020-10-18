@@ -118,8 +118,8 @@
         "level":"85%"
       },
       {
-        "name":"PostgresSQL",
-        "level":"70%"
+        "name":"SQL",
+        "level":"80%"
       },
       {
         "name":"Sequelize",
