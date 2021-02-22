@@ -141,11 +141,11 @@
         "gitHub": "https://github.com/Thanh-Lai/portfolio"
       },
       {
-        "title":"Code-O",
-        "category":"Coding platform that measures time complexity",
-        "image":"code-o.jpg",	
-        "url":"http://code-o.herokuapp.com/",
-        "gitHub": "https://github.com/Code-O"	
+        "title":"Lyrics Player",
+        "category":"Music platform for searching songs based on lyrics",
+        "image":"lyricsplayer.jpg",	
+        "url":"https://lyricsplayer.tk",
+        "gitHub": "https://github.com/Thanh-Lai/lyrics-player"	
       },
       {
         "title":"Leggo-my-Lego",
