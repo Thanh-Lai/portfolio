@@ -9,10 +9,8 @@
     "email": "tlai1122@gmail.com",
     "phone": "(201) 993-8834",
     "address":{
-      "street":"869 57th Street",
-      "city":"New York City",
-      "state":"New York",
-      "zip": "11220"
+      "city":"New York",
+      "state":"New York"
     },
     "website": "https://www.thanh-lai.com",
     "resumedownload":"./resume.pdf",
@@ -74,13 +72,13 @@
         "company":"Guidepoint",
         "title":"Software Engineer",
         "years":"September 2019 - October 2020",
-        "description":"Full stack developer utilizing LAMP stack (Linux, Azure, MySQL, PHP), JavaScript, JQuery, CSS, Redis, and more.•Developed new features and maintained company’s Customer Relationship Management system.•Built reports that provided important information to help the business make informed decisions."
+        "description":"Full stack developer utilizing LAMP stack (Linux, Azure, MySQL, PHP), JavaScript, jQuery, CSS, Redis, and more.•Developed new features and maintained the company’s Customer Relationship Management system.•Implemented a rating and tagging system which allows for more strategic and accurate use of data.•Built data-driven report dashboards to provide the business with key data to make informed decisions."
       },
       {
         "company":"JETSWEAT",
         "title":"Software Development Intern",
         "years":"June 2019 - August 2019",
-        "description":"Full Stack Developer utilizing JavaScript, React, Redux, MySQL, CSS, and more.•Developed new user-facing features using React from designs and wireframes.•Built REST APIs and updated Redux store to integrate new features."
+        "description":"Full stack developer utilizing JavaScript, React, Redux, MySQL, CSS, and more.•Developed new user-facing features such as a calendar dashboard and workout scheduling.•Built REST APIs and updated Redux store to integrate new features."
       }
     ],
     "skillmessage":"I have experience in the NERD stack and LAMP stack.",
