@@ -6,11 +6,11 @@ AWS.config.update({accessKeyId: AWS_ACCESS_KEY, secretAccessKey: AWS_SECRET_KEY,
 class About extends Component {
     downloadResume () {
         const s3 = new AWS.S3();
-        const objParams = {
+        const params = {
             Bucket:'howsthisforunique',
             Key: 'resume.pdf'
         };
-        s3.getObject(objParams, (err, data, ) => {
+        s3.getObject(params, (err, data, ) => {
             const blob = new Blob([data.Body], {type: data.ContentType});
             const link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
