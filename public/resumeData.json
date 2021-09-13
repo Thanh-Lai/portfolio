@@ -84,7 +84,7 @@
     "skills":[
       {
         "name":"JavaScript",
-        "level":"95%"
+        "level":"98%"
       },
       {
         "name":"PHP",
@@ -92,11 +92,11 @@
       },
       {
         "name":"AWS",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"ReactJS",
-        "level":"85%"
+        "level":"90%"
       },
       {
         "name":"Node",
@@ -104,7 +104,7 @@
       },
       {
         "name":"Express",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"HTML5",
@@ -112,7 +112,7 @@
       },
       {
         "name":"CSS",
-        "level":"85%"
+        "level":"90%"
       },
       {
         "name":"SQL",
@@ -130,6 +130,13 @@
   },
   "portfolio":{	
     "projects": [	
+        {
+            "title":"Play Sudoku",
+            "category":"A sudoku player with all the features needed to enjoy the game. Dedicated to Maki Kaji (Oct 8, 1951 - Aug 10, 2021)",
+            "image":"sudoku.jpg",	
+            "url":"https://play-sudoku-08102021.herokuapp.com/",
+            "gitHub": "https://github.com/Thanh-Lai/sudoku-game"
+          },
       {
         "title":"ThanhBot",
         "category":"AI chatbot that answers interview questions and tells jokes",
