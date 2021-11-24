@@ -11,7 +11,6 @@
     "react-chat-widget": "^2.1.4-1",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
-    "react-responsive": "^6.1.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
