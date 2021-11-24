@@ -95,7 +95,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -314,6 +314,14 @@
       margin-left: 0;
    }
 
+   /* chatbot */
+   .rcw-hide-sm {
+      display: block !important;
+   }
+
+   .rcw-launcher {
+      bottom: 7% !important;
+  }
 
    /* footer
    ------------------------------------------------------------------------ */
@@ -371,12 +379,3 @@
    footer .social-links li { margin-left: 14px; }   
 
 }
-
-
-
-
-
-
-
-
-
