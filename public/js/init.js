@@ -23,11 +23,12 @@ jQuery(document).ready(function ($) {
       e.preventDefault();
 
       const target = this.hash,
-         $target = $(target);
+       $target = $(target);
 
-      $('html, body').stop().animate({
+       $('html, body').stop().animate({
          'scrollTop': $target.offset().top
       }, 800, 'swing', function () {
+         window.location.hash = '';
          window.location.hash = target;
       });
    });

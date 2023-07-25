@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class Resume extends Component {
-
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
@@ -16,20 +15,20 @@ class Resume extends Component {
             <h3>{work.company}</h3>
             <p>{work.techStack}</p>
             <div>
-            {
-              work.positions.map((position) => {
-                return (
-                  <div key={`${work.company}_${position.title}`}> 
-                    <p className="info">{position.title}<span>&bull;</span> <em className="date">{position.years}</em></p>
-                    {position.description.map((bullet, idx) => {
-                      return <p className="job-description" key={idx}>{`• ${bullet}`}</p>
-                    })}
-                    <br/>
-                  </div>
-                )
-              })
-            }
-      </div>
+              {
+                work.positions.map((position) => {
+                  return (
+                    <div key={`${work.company}_${position.title}`}> 
+                      <p className="info">{position.title}<span>&bull;</span> <em className="date">{position.years}</em></p>
+                      {position.description.map((bullet, idx) => {
+                        return <p className="job-description" key={idx}>{`• ${bullet}`}</p>
+                      })}
+                      <br/>
+                    </div>
+                  )
+                })
+              }
+            </div>
             <br/>
           </div>
         )
