@@ -5,7 +5,6 @@ class Footer extends Component {
     super(props)
     this.state = {
       facebook: false,
-      twitter: false,
       linkedin: false,
       instagram: false,
       github: false
@@ -18,9 +17,6 @@ class Footer extends Component {
     switch (elem) {
       case 'facebook':
         this.setState({ facebook: !this.state.facebook });
-        return
-      case 'twitter':
-        this.setState({ twitter: !this.state.twitter });
         return
       case 'linkedin':
         this.setState({ linkedin: !this.state.linkedin });

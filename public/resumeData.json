@@ -22,13 +22,6 @@
         "color": "#4267B2"
       },
       {
-        "name":"twitter",
-        "url":"https://twitter.com/tlaiful",
-        "className":"fa fa-twitter",
-        "target": "_blank",
-        "color": "#1DA1F2"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/thanhlai/",
         "className":"fa fa-linkedin",
@@ -54,33 +47,88 @@
   "resume":{
     "education":[
       {
-        "school":"FullStack Academy of Code",
-        "degree":"Web Development Fellowship",
-        "graduated":"July 2018",
-        "description":"17 week immersive software engineering program focused on fullstack Javascript web development using the NERD stack (Node.js, Express.js, React.js, and the database ORM Sequelize)"
-      },
-      {
         "school":"Ramapo College of New Jersey",
-        "degree":"Business Administration",
+        "GPA":"GPA: 3.7",
         "graduated":"May 2014",
-        "description":"GPA: 3.7/4.0, Latin Honor: Magna Cum Laude"
+        "description":"Latin Honors: Magna Cum Laude"
       }
     ],
     "work":[
       {
+        "company":"Fluz",
+        "techStack":"Full stack developer with a focus on Frontend Web and Mobile development. JavaScript, React, React Native, Redux, Graphql, Sequelize, Postgres, CSS, Redis, Node and more.",
+        "positions": [
+          {        
+            "title":"Lead Engineer",
+            "years":"June 2023 - Present",
+            "description":[
+              "Supervises a team of two engineers that develops a full-stack client-facing mobile and web application.",
+              "Supports the team with technical problems, oversees code reviews, debugging, and efficiently onboards new employees.",
+              "Mentors and guides junior engineers to promote the development of engineering principles and best practices.",
+              "Breaks down complex tasks for projects then assigns tasks and goals to the team."
+            ]
+          },
+          {        
+            "title":"Software Engineer",
+            "years":"December 2021 - June 2023",
+            "description":[
+              "Builds new features such as a merchant detail display page that improves visibility and usability.",
+              "Delivers modern, highly reusable, and future-proof frontend components as such swipe-able card decks and carousels.",
+              "Realizes designs and animations that enhance user experience, usability, and visual aesthetics.",
+              "Writes migration scripts using knex to update and maintain the database to achieve business goals.",
+              "Creates and maintains GraphQL schemas, queries, mutations, and fragments using Apollo Client.",
+              "Implemented functionalities for a new virtual debit card product that offers cash back.",
+              "Reskined a large portion of the app and rewrite queries to improve user-friendliness, load speed, and responsivedesign.",
+              "Built a service to delete tokens of unused user bank cards from VGS, a data security vendor, to save the companytens of thousands of dollars."
+            ]
+          }
+        ]
+      },
+      {
+        "company":"FreedomCare",
+        "techStack" : "",
+        "positions" : [
+          {
+            "title":"Home Care Aide",
+            "years":"December 2020 - November 2021",
+            "description":["CDPAP home care aid to my father managing his home dialysis treatment."]
+          }
+        ]
+      },
+      {
         "company":"Guidepoint",
-        "title":"Software Engineer",
-        "years":"September 2019 - October 2020",
-        "description":"Full stack developer utilizing LAMP stack (Linux, Azure, MySQL, PHP), JavaScript, jQuery, CSS, Redis, and more.•Developed new features and maintained the company’s Customer Relationship Management system.•Implemented a rating and tagging system which allows for more strategic and accurate use of data.•Built data-driven report dashboards to provide the business with key data to make informed decisions."
+        "techStack":"Full stack developer utilizing LAMP stack (Linux, Azure, MySQL, PHP), JavaScript, jQuery, CSS, Redis, and more.",
+        "positions" : [
+          {
+            "title":"Software Engineer",
+            "years":"September 2019 - October 2020",
+            "description":[
+              "Developed new features and maintained the company’s Customer Relationship Management system.",
+              "Implemented a rating and tagging system that allowed for more strategic and accurate use of data.",
+              "Built data-driven report dashboards to provide the business with key data to make informed decisions.",
+              "Handled client-side and server-side validations to improve security and data handling.",
+              "Documented workflow and projects with detailed information to improve organization and collective knowledge."
+            ]
+          }
+        ] 
       },
       {
         "company":"JETSWEAT",
-        "title":"Software Development Intern",
-        "years":"June 2019 - August 2019",
-        "description":"Full stack developer utilizing JavaScript, React, Redux, MySQL, CSS, and more.•Developed new user-facing features such as a calendar dashboard and workout scheduling.•Built REST APIs and updated Redux store to integrate new features."
+        "techStack":"Full stack developer utilizing JavaScript, React, Redux, MySQL, CSS, and more.",
+        "positions" : [
+          {
+            "title":"Software Development Intern",
+            "years":"June 2019 - August 2019",
+            "description":[
+              "Developed new user-facing features such as a calendar dashboard and workout scheduling.",
+              "Designed and built REST APIs to integrate new features and allow for safe transfer of data between client andserver using microservice architecture.",
+              "Overhauled the Redux store to allow for better management of data throughout the application."
+            ]
+          }
+        ]
       }
     ],
-    "skillmessage":"I have experience in the NERD stack and LAMP stack.",
+    "skillmessage":"Eager to learn and passionate to grow",
     "skills":[
       {
         "name":"JavaScript",
@@ -88,14 +136,42 @@
       },
       {
         "name":"PHP",
+        "level":"50%"
+      },
+      {
+        "name":"Python",
+        "level":"50%"
+      },
+      {
+        "name":"React",
+        "level":"92%"
+      },
+      {
+        "name":"React Native",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"100%"
+      },
+      {
+        "name":"CSS",
         "level":"95%"
       },
       {
-        "name":"AWS",
+        "name":"SQL",
+        "level":"82%"
+      },
+      {
+        "name":"Redux",
+        "level":"90%"
+      },
+      {
+        "name":"Graphql",
         "level":"85%"
       },
       {
-        "name":"ReactJS",
+        "name":"Sequelize",
         "level":"90%"
       },
       {
@@ -107,24 +183,8 @@
         "level":"85%"
       },
       {
-        "name":"HTML5",
-        "level":"100%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"SQL",
-        "level":"80%"
-      },
-      {
-        "name":"Sequelize",
-        "level":"90%"
-      },
-      {
-        "name":"Python",
-        "level":"60%"
+        "name":"AWS",
+        "level":"75%"
       }
     ]
   },
